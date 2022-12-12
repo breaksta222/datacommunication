@@ -1,0 +1,52 @@
+.navbar-brand {
+    font-family: Space Grotesk;    
+    font-weight: bold;
+}
+
+label {
+    position: relative;
+    
+  }
+  
+label:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    right: 40px;    
+    
+  }
+
+  input {
+    padding: 10px 30px;
+    
+  }
+
+.h1 {
+    font-family: Space Grotesk;
+    font-weight: bold;
+    font-size: 35px;
+}    
+
+.h2  {
+    font-family: Space Grotesk;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.background_image {
+	background: 
+    url(images/Rectangle_11.png)top 790px left 100px no-repeat,
+    url(images/Rectangle_9.png)top 790px left 345px no-repeat,
+    url(images/Rectangle_2.png)top 337px left 140px no-repeat,
+    url(images/Vector_8.png)top 100px left 730px no-repeat,
+    url(images/Vector_4.png)top 550px left 1080px no-repeat,
+    url(images/Vector_3.png)top 640px left 1240px no-repeat,
+    url(images/Ellipse.png)top right no-repeat,
+    url(images/Vector_11.png)top center no-repeat,
+    url(images/Rectangle_3.png)top right no-repeat,
+    url(images/image-left.png)top left no-repeat,
+    url(images/Star_2.png)top center no-repeat;   
+}
